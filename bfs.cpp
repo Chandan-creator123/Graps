@@ -53,14 +53,14 @@ int main() {
     // Call BFS starting from node 0
     bfs(0, n);
 
-    // Optional: Print visited nodes
-    cout << "Visited nodes in BFS order: ";
-    for (int i = 0; i < n; i++) {
-        if (visited[i]) {
-            cout << i << " ";
-        }
-    }
-    cout << endl;
+    // // Optional: Print visited nodes
+    // cout << "Visited nodes in BFS order: ";
+    // for (int i = 0; i < n; i++) {
+    //     if (visited[i]) {
+    //         cout << i << " ";
+    //     }
+    // }
+    // cout << endl;
 
     return 0;
 }
